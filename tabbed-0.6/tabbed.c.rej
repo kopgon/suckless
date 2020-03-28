@@ -1,0 +1,10 @@
+--- tabbed.c
++++ tabbed.c
+@@ -307,6 +307,6 @@ void
+ drawbar(void) {
+ 	unsigned long *col;
+-	int c, fc, width, n = 0, nbh, i;
++	int c, fc, width, n = 0;
+ 	char *name = NULL;
+ 
+ 	if (nclients == 0) {
